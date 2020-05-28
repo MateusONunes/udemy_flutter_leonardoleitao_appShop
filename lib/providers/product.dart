@@ -9,7 +9,7 @@ class Product with ChangeNotifier {
   bool isFavorite;
 
   Product({
-    @required this.id,
+    this.id,
     @required this.title,
     @required this.description,
     @required this.price,
@@ -18,12 +18,6 @@ class Product with ChangeNotifier {
   });
 
   void toggleFavorite() {
-    /*
-      https://www.udemy.com/course/curso-flutter/learn/lecture/19443466#questions
-      213. Marcando Produto como Favorito
-      ChangeNotfy
-    */
-
     isFavorite = !isFavorite;
     notifyListeners();
   }

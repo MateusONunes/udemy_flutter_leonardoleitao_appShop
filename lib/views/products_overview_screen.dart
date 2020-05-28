@@ -1,9 +1,3 @@
-/*
-https://www.udemy.com/course/curso-flutter/learn/lecture/19195644#questions
-212. Extraindo Grid de Produtos
-Aqui ele separa o componente em um widget usando o botão direito do mouso na interface do VsCode
-Criado o arquivo products_overview_screen.dart
-*/
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../widgets/product_grid.dart';
@@ -54,11 +48,6 @@ class _ProductOverviewScreenState extends State<ProductOverviewScreen> {
             ],
           ),
           Consumer<Cart>(
-            /*Consumer
-              https://www.udemy.com/course/curso-flutter/learn/lecture/19443482#questions
-              216. Usando Consumer
-              Consumer vs Provider.of
-            */
             child: IconButton(
               icon: Icon(Icons.shopping_cart),
               onPressed: () {
