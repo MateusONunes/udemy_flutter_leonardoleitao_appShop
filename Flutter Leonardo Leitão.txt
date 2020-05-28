@@ -1,0 +1,637 @@
+Este arquivo contém resumo/anotações do curso "Flutter e Dart - Aprenda e Construa APP iOS e Android 2020 de Leonardo Leitão" - https://www.cod3r.com.br/courses/aprenda-flutter-dart-e-construa-apps-ios-e-android
+
+
+Aconselha Versão 10 do Java
+Ele usa a versão 1.9
+
+Video:
+======
+DevTools
+
+
+comnandos flutter
+=================
+flutter --help
+flutter emulators                             => Lista emuladores
+flutter emulators --launch <Nome do Emulador> => [Não testei] Executa/abre o emulador 
+flutter create NOME_APLICACAO                 =>Criar Aplicação Flutter na pasta NOME_APLICACAO
+flutter run -d NOME_EMULADOR                  => Abre o App no emulador selecionado
+flutter run -d emulator-4 -t lib/main_PONTO2.dart — flavor prod  => [Não testei]  - Rodar o emulador em outro ponto de entrada que não o main.dart
+
+comando avdmanager
+==================
+avdmanager - list avd => Lista os dispositivos disponíveis 
+				
+					
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953468#overview
+10. Material Design
+É um padrão de designer definido pelo google e utilizado pelo android
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17938956#questions
+20. Resumão da Linguagem Dart #01
+
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17938986#questions
+26. Árvore de Widgets
+Scaffold - Estrutura/Texto
+AppBar
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939002#questions
+Column
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/18383384#questions
+07:50 - Scrool SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939036#questions
+36. Tornando Membros Privados
+Fala sobre Set/Get/ Membro privado "_"
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939042#questions
+37. Criando Widget Questão
+Componentização - Criando componentes
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939044#questions
+38. Container Widget - Conceito Border margin Padding
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939050#questions
+39. Aplicando Estilo ao Widget Questão
+Option/Shift/F para formatadr o código
+
+***commit****
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939068#questions
+43. Passando Função Callback
+Aqui Basicamente passei uma função por parâmetro de um componente para o outro
+
+***Commit:27bae8b2
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939072#questions
+44. Usando Tipo Map nas Perguntas - Array
+Aqui ele começa a utilizar(Ele segue utilizando na próxima aula)):
+	{'texto': 'Qual é o seu instrutor favorito?',
+	'respostas': ['Maria', 'João', 'Leo', 'Pedro']
+	
+	}
+***Sem Commit
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939076#questions
+45. Lista para Widgets #01
+	Diferença de Código Imperativo/Declarativo
+		Imperativo => Você diz mais como deve fazer
+		Declarativo => Voce solicita e o sistema define como fazer (Por exemplo select from tabela)
+03:40
+	- Aqui ele está passando o array 'respostas' para dentro do componente secundário que fará o uso.
+	- Ele está utilizando for ou está fazendo de maneira Imperativa
+	- Ele também usou o Espalhar [...]
+	- Na aula seguinte ele passa este código de Imperativo para Declarativo
+	
+		{'texto': 'Qual é o seu instrutor favorito?',
+		'respostas': ['Maria', 'João', 'Leo', 'Pedro']
+
+		}
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939082#questions
+46. Lista para Widgets #02
+Fontes: "16. Código Fonte do Módulo/lib_v08"
+- Ele vai passar o código da aula anterior de Imperativo para declarativo.
+		
+		{'texto': 'Qual é o seu instrutor favorito?',
+		'respostas': ['Maria', 'João', 'Leo', 'Pedro']
+
+		}
+		
+		...respostas.map((t) => Resposta(t, _responder)).toList(),
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939086#questions
+47. Evitando Acessar Pergunta Inválida
+Faz o uso do If dentro do "Html" ou dentro do Return do Widget
+	?
+	:
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939098#questions
+51. Desafio Widget Resultado - Resposta
+Fontes: "16. Código Fonte do Módulo/lib_v11" - Resultado final. No v10 ele fez uma parte tb.
+Aqui ele vai componentizar um pouco mais o App
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939098#questions
+52. Widget Questionário
+Continuação da aula anterior porém refatorando o outro componente que é um pouco mais complexo.
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939104#questions
+53. Adicionando Pontuação #01
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17939122#questions
+56. Reiniciando Questionário
+04:50 - Fala um pouco sobre alinhamento (Bem pouco)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+== Seção 3 - App Despesas Pessoais
+=====================================================================================================================================
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17954082#questions
+65. Usando Debugger
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953560#questions
+75. Criando o Projeto - finalizou a aula com a Barra de títulos criada
+03:20 - Criando o projeto
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953564#questions
+76. Combinando Widgets
+01:50 - elevation: 5 no card
+		Construção do card utilizando container para ficar na tela inteira width: double.infinity
+03:20 - crossAxisAlignment: center/end/start - Aqui ele falou de alinhamento/posicionamento/eixo de um elemento Column/Row
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953568#questions
+77. Column & Row
+Explicação sobre flexbox eixo principal(Main Axis)/eixo cruzado(Cross Axis)
+
+01:46 - Explicação em fonte
+04:15 - Propriedade stretch(esticar) 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953572#questions
+78. Criando Classe de Modelo (Transaction)
+Criando classe transaction.dart
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953574#questions
+79. Mapear Dados para Widgets
+Aqui ele joga no children um .map()
+00:50 - Começa utilizar COLUMN para posicionar os componentes na aplicação
+	     
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953610#questions
+82. Aplicando Estilo no Container
+margin
+boxDecoration
+padding
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953614#questions
+83. Aplicando Estilo no Texto
+font - negrito color TextStyle
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953620#questions
+85. Desafio Estilo Título & Data - Resposta
+Alinhamento CrossAxis
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953626#questions
+87. Usando Interpolação de Strings
+Formatar Moeda R$ ("R\$")
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953630#questions
+88. Instalando Pacote Externo Intl
+
+Formatando datas
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953634#questions
+89. Usando TextField #01
+FlatButton
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953636#questions
+90. Usando TextField #02
+onChanged: (newValue) -> Trabalhando com alteração de variável
+03:35 - exibição no debug do valor sendo alterado.
+	  - Na sequência ele exibe alteração de variável criando função que é linkada ou atribuida automaticamente para a variável
+	
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953638#questions
+91. Dividindo App em Widgets
+Dividindo/Componentizando o _transaction (Lista de despesas)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953640#questions
+92. Adicionando Transação #01
+Criando tranzação _addTransaction
+Aqui ele passou uma função por parâmetro que deu add no componente filho.
+
+Component Statelis  -> Altera apenas quando o conteúdo externo ou a informação externa muda
+Componten Statefull -> Altera quando a informação externa ou interna(Variáveis locais) alteram
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953650#questions
+94. Lista com Rolagem (Scroll)
+utilizando o SingleChildScrollView
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953656#questions
+95. Usando ListView.Builder
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953658#questions
+96. Teclado Numérico
+KeyboardType - 
+04:35 - Ele criou uma espécie de um "Reload", onSubmitForm
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953660#questions
+97. Botões para Adicionar Transação
+IconButton
+floatingActionButton
+floatingActionButtonLocation
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953662#questions
+98. Exibindo Formulário (Modal) - showModalBottomSheet()
+Aqui ele deletou o arquivo transaction_USER.DART. Fez toda uma realocação do conteúdo deste arquivo
+_openTransactionFormModal(context)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953668#questions
+99. Correção do Formulário
+Corrigindo persistência dos dados do Text - Correção(Refatorando) do Stateless para Stateful
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953672#questions
+100. Parâmetros em Stateful Widget
+widget.onSubmit => Acessa no stateless o componente statefull
+	o widget é uma espéccie de um Aowner.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953678#questions
+101. Fechando Formulário (Modal)
+Navigator.of(context).pop()
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953682#questions
+102. Estilo com Theme
+ThemeData(primarySwatch...
+-------------------------------------------------------------------------------------------------------------------------------------
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953684#questions
+104. Fontes Personalizadas & Theme
+https://fonts.google.com/
+fontFamily: 'Quicksand'
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953690#questions
+105. Adicionar Imagem
+Image.asset
+BoxFit.cover
+ifthen dentro do return
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Aqui é a parte de Chart que pulei
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953730#questions
+114. Flexible & Expanded(que é o Flexible com FlexFit.tight)
+FlexFit.tight
+FlexFit.loose
+Row(mainAxisAlignment.spaceAround
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953738#questions
+115. Usando ListTile
+CircleAvatar
+FittedBox()
+05:30 - Card Elevation: 5
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953750#questions
+116. Melhorando Chart Widget
+Aqui ele fixou o heigth do container e a fonte passou a ter um tamnho menor para caber dentro do container
+02:30 - reversed.toList
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953756#questions
+117. São Muitos Widgets Diferentes!
+Aqui ele fala daquele canal de youtube de entrevista em ingles de pessoas que desenvolveram aplicações
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953768#questions
+118. Preparando Formulário
+Label para acrescentar data selecionada
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953776#questions
+119. Exibindo DatePicker
+Future.then 05:30
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953782#questions
+120. Transação com Data
+Capiturando a data e jogando ela para dentro do "banco de dados"
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/17953788#questions
+121. Excluindo Transação
+
+=====================================================================================================================================
+== Seção 5: Interfaces Responsivas & Adaptativas
+=====================================================================================================================================
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18054647#questions
+128. Calculando Tamanho Dinamicamente
+Aplicando recursividade no app de despesas pessoais
+height: MediaQuery
+08:24 - Ele declarou o componente appBar (Html) no cabeçalho da função como se fosse uma variável
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18054653#questions
+129. Responsividade em Textos
+TextScaleFactor
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18054659#questions
+130. Usando LayoutBuilder
+FittedBox
+
+Ele criou um Builder dentro do Return que recebe parâmetros e depois colocou um return
+aqui ele mexeu para que o gráficoacompanhe o tamanho do container
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18054665#questions
+131. Orientações Suportadas
+setPreferredOrientatios - Fixa o app em uma orientação Paisagem ou retrato
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104445#questions
+132. Modo Paisagem #01
+Visualização alternativa de acordo com o modo paisagem/retrato
+Trabalhando com Switch(equivalente ao checkbox)
+
+04:15 - Utilizando "Operação Ternária" if dentro da aplicação "? :"
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104449#questions
+133. Modo Paisagem #02
+LayoutBuilder
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104453#questions
+134. Modo Paisagem #03
+01:25 - if no meio do html 
+04:00 - if(operador ternário) dentro da propriedade do html
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104455#questions
+135. Modo Paisagem #04
+Colocando "CheckBox" no appBar
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104461#questions
+136. Ajustando Formulário
+Aqui ele vai mexer no layout considerando o tamanho do teclado - viewInsets.bottom (Solução temporária)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104463#questions
+137. Aproveitando Larguras Maiores
+mostral label se o ceular estiver no modo paisagem
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104467#questions
+138. Objeto Media Query
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104469#questions
+139. Alternando para Simulador iOS
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104471#questions
+140. Detectando a Plataforma
+Switch.adaptive
+02:50 - Plataform.isIOS ?
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104473#questions
+141. Componentes iOS
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18104477#questions
+142. Componente SafeArea
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18129857#questions
+143. Botão Adaptativo
+Cirou um botão adaptativo no arquivo adaptative_button.dart que se adapta de acordo com a plataforma android/iOS
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18129877#questions
+145. Desafio TextField Adaptativo - Resposta
+Criando arquivo adaptative_text_field.dart
+Aqui ele criou um "Controller" que eu não entendi direito
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/18129885#questions
+146. DatePicker Adaptativo
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+=====================================================================================================================================
+== Seção 8: Gerenciamento de Estado =================================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/18129885#questions
+146. DatePicker Adaptativo
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195592#questions
+201. Inherited Widget
+
+03:20 - plugin para associar tipos de arquivos a ícones/cores/estilos - settings.json - material-icon-theme.folders.associations
+06:00 - criando arquivo products_overview_dscreen.dart - classe de Product
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195606#questions
+203. Componente Grid de Produtos
+Aqui ele começa associar os dados da "tabela" produto ao grid
+
+04:40 - gridDelegate
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195610#questions
+204. Componente Item de Produto
+GridTile
+Image.Network
+Começou exibir imagens do produto
+Acrescentou o ícone de FAVORITOS
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195614#questions
+205. Estilizando APP
+Estilizando o grid de produtos - estilizando carrinho, nome do produto e o coração favoritos
+03:00 Registrando fontes
+04:40 - ClipRREct - bordar circular
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195616#questions
+206. Navegando para Detalhe de Produto
+MaterialPageRoute
+
+07:30 - Criou arquivo app_routes
+		Deixou a rota pública no app
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195622#questions
+207. Inherited Widget na Prática  - InheritedWidget
+***** Importante
+Criação de variável/variáveis GLOBAL 
+Início de Providers
+criado arquivo counter_provider.dart
+	Criado classe CounterState
+
+09:20 - Envolveu a aplicação com CounterProvider
+12:00 - **Explicação sobre alteração do estado 
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195630#questions
+208. O que é Estado?
+UI -> Interface do usuário
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195632#questions
+209. Como o Provider Funciona?
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195636#questions
+210. Entendendo Mixins
+class Carro{} no Dart
+Mixins é uma espécie de Herança múltipla
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195642#questions
+211. Usando Provider
+***** Importante
+05:02 - Criou o arquivo product.dart
+Cria o ChangeNotifier que é um observer ou um evento
+
+08:20 - Explicação sobre referência/cópia com uso do espalhar[...]
+11:30 - Aqui de fato ele insere no App o conceito de Provider (Antes ele apenas explicou mas não inseriu no App)- ChangeNotifierProvider
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19195644#questions
+212. Extraindo Grid de Produtos
+Aqui ele separa o componente em um widget usando o botão direito do mouso na interface do VsCode
+Criado o arquivo products_overview_screen.dart
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443466#questions
+213. Marcando Produto como Favorito
+ChangeNotfy
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443472#questions
+214. ChangeNotifierProvider.value
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443478#questions
+215. Alterando Listen para False
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443482#questions
+216. Usando Consumer
+Consumer vs Provider.of
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443486#questions
+217. Filtrar Favoritos
+actions
+PopupMenuButton
+PopuptMenuItem
+
+12:09 - Até aqui ele implementou o conceito para a aplicação toda
+		Apartir daqui ele vai implementar o conceito para um componente mais localizado.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443490#questions
+218. Carrinho e Item do Carrinho
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443492#questions
+219. MultiProvider
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443494#questions
+220. Criando Provider para Carrinho
+Badge
+Positioned
+
+06:00 Criando o numerozinho que fica em cima do carrinho
+		Usando Stack para colocar um elemento em cima do outro
+		
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443496#questions
+221. Componente Carrinho
+criando arquivo cart_screen.dart - exibir o conteúdo carrinho
+10:34 - Spacer
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443500#questions
+222. Itens do Carrinho
+Expanded ListView
+Criou componente CartItemWidget
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443504#questions
+223. Remover Item #01
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443508#questions
+224. Remover Item #02
+Dismissible - arrastar card para a esquerda
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443510#questions
+225. Componente Detalhe Produto
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443512#questions
+226. Criando Provider para Pedido
+Ordem de Pedidos
+addOrder
+09:20 - Acrescentou mais um provider a lista de providers - ChangeNotifierProvider
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443516#questions
+227. Adicionar Pedidos
+Clicar no Comprar
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443520#questions
+228. Componente Pedidos #01
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443526#questions
+229. Navegação com Drawer
+Menu Lateral esquerda
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443530#questions
+230. Componente Pedidos #02
+Meus Pedidos
+07:14 - ListTitle com Botãozinho "Expandir"
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19443532#questions
+231. Componente Pedidos #03
+Desenvolvendo o click no "Botãozinho Expandir"
+Expanded
+-------------------------------------------------------------------------------------------------------------------------------------
+
