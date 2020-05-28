@@ -557,6 +557,7 @@ https://www.udemy.com/course/curso-flutter/learn/lecture/19443482#questions
 Consumer vs Provider.of
 
 -------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
 https://www.udemy.com/course/curso-flutter/learn/lecture/19443486#questions
 217. Filtrar Favoritos
 actions
@@ -634,4 +635,98 @@ https://www.udemy.com/course/curso-flutter/learn/lecture/19443532#questions
 Desenvolvendo o click no "Botãozinho Expandir"
 Expanded
 -------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================
+=====================================================================================================================================
+== Seção 9: Trabalhando com Formulários =============================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851732#questions
+235. Usando Snackbar
+Barra Inferior de notificações
+removeSingleItem
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851740#questions
+236. Confirmação com Dialog
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851754#questions
+****
+238. Componente Gerenciamento de Produto #01
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851764#questions
+****
+239. Componente Gerenciamento de Produto #02
+fez a parte de visualização do grid de produtos com o botão de editar excluir e add, mas não fez as funcionalidades ainda
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851770#questions
+240. Componente Formulário de Produto
+Cirou o arquivo do formulário e a rota para ele
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851774#questions
+241. Usando o Form do Flutter
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851782#questions
+242. Controlando o Foco
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851788#questions
+243. Campo de Entrada de Multiplas Linhas
+Campo memo
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851798#questions
+245. Campo de Entrada de URL
+obs: no vídeo anterior teve a dica de dns 8.8.8.8
+Expanded
+Criando a exibição da imagem url
+_updateimagem
+onEnter onExit
+FitterBox
+Image.NetWork
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851800#questions
+246. Submetendo o Formulário
+_SaveForm
+Aqui ele capiturou os dados do formulário e "enviou para o banco de dados"
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851802#questions
+247. Validação do Formulário #01
+"Tulo não informado"
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851808#questions
+248. Validação do Formulário #02
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851812#questions
+249. Salvar Produto
+04:51 Mensagem de erro no provider "Tried to listem to a value exposed with provider, from outside of the widget tree"
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851818#questions
+250. Editar Produto #01
+didChangeDependencies
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851820#questions
+251. Editar Produto #02
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851822#questions
+252. Excluir Produto
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19851834#questions
+254. Desafio Confirmar Exclusão do Produto - Resposta
+-------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
