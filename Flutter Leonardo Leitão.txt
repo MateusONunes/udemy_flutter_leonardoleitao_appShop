@@ -1,5 +1,7 @@
 Este arquivo contém resumo/anotações do curso "Flutter e Dart - Aprenda e Construa APP iOS e Android 2020 de Leonardo Leitão" - https://www.cod3r.com.br/courses/aprenda-flutter-dart-e-construa-apps-ios-e-android
 
+Está sendo fantástico incrível, tanto a parte de ferramentas e recursos do flutter quanto a parte de conceitos e visão de programação. até agora o curso já está sendo completo, o curso mais completo que já vi e já fiz, desde entrada de dados, menus, navegação, tratamento de erros, finally, assincronismo, conceitos internos do flutter, a linguagem dart, wadgets, persistência dos dados na memória e agora a persistência dos dados em api pelo firebase. estou muito satisfeito com o curso e tenho um material para muito tempo de consulta até que me torne mais autônomo. parabéns Leonardo Leitão, eu já era fã e agora sou muito mais, o seu trabalho é muito sério muito dedicado, muito competente, de muito cuidado visão e carinho. Parabéns
+
 
 Aconselha Versão 10 do Java
 Ele usa a versão 1.9
@@ -717,14 +719,100 @@ https://www.udemy.com/course/curso-flutter/learn/lecture/19851822#questions
 https://www.udemy.com/course/curso-flutter/learn/lecture/19851834#questions
 254. Desafio Confirmar Exclusão do Produto - Resposta
 -------------------------------------------------------------------------------------------------------------------------------------
+=====================================================================================================================================
+=====================================================================================================================================
+== Seção 10: Enviando Requisições HTTP ==============================================================================================
+=====================================================================================================================================
+=====================================================================================================================================
 
+
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854252#questions
+258. Tipos de Armazenamento
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854262#questions
+259. Como é feita a conexão com BD?
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854274#questions
+260. Configurando o Backend com Firebase
+typicode/json-server
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854278#questions
+261. Requisições HTTP e API Rest
+Aqui ele faz explicação geral sobre teoria Get, Patch/Put, Post, Delete
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854284#questions
+262. Enviando Requisição POST
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854286#questions
+263. Entendendo Future #01
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854288#questions
+264. Entendendo Future #02
+https://dartpad.dev/
+
+Parece uma promessa ou Assync ou callback
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854290#questions
+265. Exibindo Indicador de Progresso
+Ao gravar mudar para a tela apenas quando o produto for gravado (Assincrono)
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854296#questions
+266. Tratamento de Erro
+gerando um raise exception
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854298#questions
+267. Async/Await
+finally
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854302#questions
+268. Obtendo Produtos
+Utilizando o GET
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854308#questions
+269. Exibindo os Produtos
+Jogando o conteúdo do GET anterior para dentro do meu json local
+	Carregando os dados do banco
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854318#questions
+271. Implementando Pull-To-Refresh
+_refresProducts-RefresIndicator
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854322#questions
+272. Atualizando o Produto
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854330#questions
+273. Exclusão Otimista #01
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854336#questions
+274. Exclusão Otimista #02
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854342#questions
+276. Desafio Atualizar Favoritos - Resposta 
+Quando clicar no favoritos jogar persistir os dados no Firebase e atualizar de Forma Otimista
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854350#questions
+277. Armazenando os Pedidos no Firebase
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854352#questions
+278. Carregando os Pedidos
+01:40 aqui novamente ele transforma para statefull apenas parte de um componente talves para renderizar em tela
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854354#questions
+279. FutureBuilder
+
+-------------------------------------------------------------------------------------------------------------------------------------
+https://www.udemy.com/course/curso-flutter/learn/lecture/19854358#questions
+280. Criando uma Constante para URL
 -------------------------------------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
