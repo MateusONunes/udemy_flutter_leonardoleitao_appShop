@@ -18,6 +18,11 @@ class Product with ChangeNotifier {
   });
 
   void toggleFavorite() {
+    /*
+      https://www.udemy.com/course/curso-flutter/learn/lecture/19443466#questions
+      213. Marcando Produto como Favorito
+      ChangeNotfy
+    */
     isFavorite = !isFavorite;
     notifyListeners();
   }
