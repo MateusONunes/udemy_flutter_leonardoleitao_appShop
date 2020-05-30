@@ -57,8 +57,9 @@ class _ProductFormScreenState extends State<ProductFormScreen> {
     bool endsWithPng = url.toLowerCase().endsWith('.png');
     bool endsWithJpg = url.toLowerCase().endsWith('.jpg');
     bool endsWithJpeg = url.toLowerCase().endsWith('.jpeg');
+    bool endsWithWebp = url.toLowerCase().endsWith('.webp');
     return (startWithHttp || startWithHttps) &&
-        (endsWithPng || endsWithJpg || endsWithJpeg);
+        (endsWithPng || endsWithJpg || endsWithJpeg || endsWithWebp);
   }
 
   @override

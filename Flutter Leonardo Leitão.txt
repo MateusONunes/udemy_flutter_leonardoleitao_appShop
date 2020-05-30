@@ -734,7 +734,7 @@ https://www.udemy.com/course/curso-flutter/learn/lecture/19854262#questions
 -------------------------------------------------------------------------------------------------------------------------------------
 https://www.udemy.com/course/curso-flutter/learn/lecture/19854274#questions
 260. Configurando o Backend com Firebase
-typicode/json-server
+pacote typicode/json-server para integrar firebase com o node
 -------------------------------------------------------------------------------------------------------------------------------------
 https://www.udemy.com/course/curso-flutter/learn/lecture/19854278#questions
 261. Requisições HTTP e API Rest
