@@ -305,7 +305,7 @@ Aqui é a parte de Chart que pulei
 -------------------------------------------------------------------------------------------------------------------------------------
 https://www.udemy.com/course/curso-flutter/learn/lecture/17953730#questions
 114. Flexible & Expanded(que é o Flexible com FlexFit.tight)
-FlexFit.tight
+FlexFit.tight-> Utilizar toda a área disponível
 FlexFit.loose
 Row(mainAxisAlignment.spaceAround
 
